@@ -110,6 +110,7 @@ if(quests.length === 0) {
 					const fakeGames = [fakeGame]
 					const realGetRunningGames = RunningGameStore.getRunningGames
 					const realGetGameForPID = RunningGameStore.getGameForPID
+					RunningGameStore.getRunningGames = () => fakeGames
 					RunningGameStore.getGameForPID = (pid) => fakeGames.find(x => x.pid === pid)
 					FluxDispatcher.dispatch({type: "RUNNING_GAMES_CHANGE", removed: realGames, added: [fakeGame], games: fakeGames})
 					
