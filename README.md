@@ -275,7 +275,7 @@ No. Doing that would put you at risk because anyone with account access could ch
 1. Make sure you're running the **latest version** of the script.
 2. Read the **FAQ** above.
 3. If all else fails, try your luck with **Equicord's Questify plugin** instead.
-
+4. It's Free
 <p align="center">
   <b>License: <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL-3.0</a></b>
 </p>
